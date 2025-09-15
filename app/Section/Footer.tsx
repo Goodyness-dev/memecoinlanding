@@ -1,13 +1,21 @@
 import React from 'react';
-
+import {FaTwitter, FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
        <section className="mt-20 border-t border-black ml-20 mr-20">
-    <div className="flex justify-center items-center p-10 gap-10">
-    <button className="bg-black/50 text-white p-3 rounded-2xl w-50 hover:bg-lime-400">Telegram</button>
-    <button className="bg-black/50 text-white p-3 rounded-2xl w-50 hover:bg-lime-400">Twitter/X</button>
-    </div>
+  <div className="flex justify-center items-center p-10 gap-10">
+  <button className="flex items-center justify-center gap-2 bg-black/50 text-white px-6 py-3 rounded-2xl hover:bg-lime-400 transition">
+    <FaTelegramPlane className="text-xl" />
+    <span>Telegram</span>
+  </button>
+
+  <button className="flex items-center justify-center gap-2 bg-black/50 text-white px-6 py-3 rounded-2xl hover:bg-lime-400 transition">
+    <FaTwitter className="text-xl" />
+    <span>Twitter/X</span>
+  </button>
+</div>
+
     <div className="pad text-center">
     <p className="mb-10 text-amber-400"> Contact Address</p>
     <p className="text-sm">0x....(Coming soon)</p>
