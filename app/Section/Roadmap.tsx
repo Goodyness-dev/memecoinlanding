@@ -14,7 +14,7 @@ const Roadmap = () => {
       <p className=" text-sm mt-5">Meme flood begins, vibes, and pure gang energy</p>
     </div>
     <div className="pad p-5 mb-5 roadmap">
-      <p className="text-lime-400"><span className="bg-lime-400  inline-flex text-black rounded-full items-center justify-center  w-10 h-10 overflow-hidden mr-5">2</span>  Phase 2 - Pablo Gts busy</p>
+      <p className="text-lime-400"><span className="bg-lime-400  inline-flex text-black rounded-full items-center justify-center  w-10 h-10 overflow-hidden mr-5">2</span>  Phase 2 - Pablo Gets busy</p>
       <p className="text-sm mt-5">Staking, NFTs, community battles & contests</p>
     </div>
     <div className="pad roadmap">
