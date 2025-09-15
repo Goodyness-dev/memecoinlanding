@@ -27,19 +27,19 @@ const Tokenomics = () => {
         <p className="text-purple-400">50%</p>
       </div>
       <div className="flex justify-between mb-5 p-4 rounded-2xl bg-[hsl(142,71%,45%,0.1)] text-white text-sm md:text-base">
-        <p className="mr-10 text-[#FFF9E6]">Community</p>
+        <p className="mr-10 text-[#FFF9E6]">Ntfs and games</p>
         <p className="text-green-400">10%</p>
       </div>
       <div className="flex justify-between mb-5 p-4 rounded-2xl bg-[hsl(0,84%,60%,0.1)] text-white text-sm md:text-base">
-        <p className="mr-10 text-[#FFF9E6]">Community</p>
+        <p className="mr-10 text-[#FFF9E6]">Marketing & Partnership</p>
         <p className="text-red-400">10%</p>
       </div>
       <div className="flex justify-between mb-5 p-4 rounded-2xl bg-[hsl(45,100%,50%,0.1)] text-white text-sm md:text-base">
-        <p className="mr-10 text-[#FFF9E6]">Community</p>
+        <p className="mr-10 text-[#FFF9E6]">Future Development</p>
         <p className="text-amber-300">10%</p>
       </div>
       <div className="flex justify-between mb-5 p-4 rounded-2xl bg-[hsl(50,98%,50%,0.1)] text-white text-sm md:text-base">
-        <p className="mr-10 text-[#FFF9E6]">Community</p>
+        <p className="mr-10 text-[#FFF9E6]">Team</p>
         <p className="text-yellow-200">10%</p>
       </div>
     </div>

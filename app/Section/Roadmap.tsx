@@ -27,7 +27,7 @@ const Roadmap = () => {
     </div>
   </div>
   <div className="flex justify-center items-center">
-  <h1 className="font-bold text-amber-300 text-5xl p-7">Pablo Coin To The Moon</h1>
+  <h1 className="font-bold text-amber-300 text-sm p-7 md:text-5xl">Pablo Coin To The Moon</h1>
   </div>
   <div className="flex justify-center items-center">
     <img src={'/moon cat.jpg'}

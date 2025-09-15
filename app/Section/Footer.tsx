@@ -15,7 +15,6 @@ const Footer = () => {
     <span>Twitter/X</span>
   </button>
 </div>
-
     <div className="pad text-center">
     <p className="mb-10 text-amber-400"> Contact Address</p>
     <p className="text-sm">0x....(Coming soon)</p>

@@ -11,23 +11,25 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger)
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
- useEffect(() => {
+
+  useEffect(() => {
   if (typeof window === "undefined") return;
 
   const root = document.documentElement;
-  root.style.setProperty("--grad1", "#0f0f0f");
-  root.style.setProperty("--grad2", "#000000");
+  root.style.setProperty("--grad1", "#1a1a2e"); // muted navy purple
+  root.style.setProperty("--grad2", "#0f0f1a"); // deep soft black-blue
 
   const tl = gsap.timeline({
     yoyo: true,
     repeat: -1,
-    defaults: { duration: 1.5, ease: "sine.inOut" },
+    defaults: { duration: 6, ease: "sine.inOut" }, // slower + softer
   });
-      tl.to(root, { "--grad1": "#1a0033", "--grad2": "#0d0d2b" })   // deep purple → indigo
-    .to(root, { "--grad1": "#2e004f", "--grad2": "#0f0f0f" })   // darker purple
-    .to(root, { "--grad1": "#4b0082", "--grad2": "#1a1a1a" })   // indigo → near black
-    .to(root, { "--grad1": "#6a0dad", "--grad2": "#2b0033" })   // violet → dark magenta
-    .to(root, { "--grad1": "#000000", "--grad2": "#0f0f0f" });
+
+  tl.to(root, { "--grad1": "#2a1f3d", "--grad2": "#1a1325" })   // dusty purple → soft plum
+    .to(root, { "--grad1": "#3b2c55", "--grad2": "#201830" })   // deep violet-gray
+    .to(root, { "--grad1": "#4a375f", "--grad2": "#2a1f3d" })   // muted indigo → faded purple
+    .to(root, { "--grad1": "#1f1b2d", "--grad2": "#0f0f1a" })   // near-black purple
+    .to(root, { "--grad1": "#1a1a2e", "--grad2": "#0f0f1a" });  // reset
 }, []);
 
 useEffect(()=> {
