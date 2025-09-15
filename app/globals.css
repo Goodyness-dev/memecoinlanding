@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --grad1: #0f0f0f;
+  --grad2: #000000;
+}
+
+body {
+  background: linear-gradient(var(--grad1), var(--grad2));
+  background-size: 200% 200%;
+  transition: background 1s ease;
+}
+
+.pad{
+ @apply p-8 w-full 
+  items-center
+   justify-center
+     bg-gray-900/80  
+    text-gray-400
+     font-bold 
+    border-amber-300 rounded-2xl 
+  shadow-[0_0_20px_#FFD700] 
+  mb-8
+}
